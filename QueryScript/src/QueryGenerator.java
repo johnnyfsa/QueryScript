@@ -1,6 +1,6 @@
 import java.time.*;
 
-public class main {
+public class QueryGenerator {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -24,6 +24,13 @@ public class main {
 		int longetude =0;
 		int usuario_id;
 		String Status = "A";
+		LocalDateTime data_cadastro;
+		LocalDateTime data_atualizacao;
+		int numero_original;
+		String consumidor_final = "S";
+		String status_sync = "TR";
+		String query;
+		
 		
 		LocalDateTime test = LocalDateTime.now();//
 		System.out.println(test);
